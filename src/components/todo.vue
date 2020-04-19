@@ -11,7 +11,6 @@
             v-model="item.isCompleted"
           />
           <label for="checkbox">{{ item.todoName }}</label>
-          <span>{{ item.isCompleted }}</span>
           <!-- <i class="fa fa-shopping-cart" aria-hidden="true"></i> -->
         </td>
         <td class="date-box tbl-row-content">
