@@ -1,6 +1,6 @@
 <template>
     <div class="todo-table-block">
-        <div class="cta-block">
+        <div class="cta-block mb-2">
             <button
             class="btn btn-success"
             @click="completedFilter"
