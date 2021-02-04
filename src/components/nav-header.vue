@@ -14,18 +14,24 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#"><i class="fa fa-home"></i>Hareesh CS</a>
+          <div class="navbar-brand active">
+                <router-link to="/"><i class="fa fa-home"></i>Hareesh CS</router-link>
+              </div>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+              <div class="nav-link">
+                <router-link to="/home">Home</router-link>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <div class="nav-link">
+                <router-link to="/about">About</router-link>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <div class="nav-link">
+                <router-link to="/contact">Contact</router-link>
+              </div>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
